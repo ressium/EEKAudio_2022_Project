@@ -1,0 +1,37 @@
+State Group	ID	Name			Wwise Object Path	Notes
+	1697398818	CaveReverb			\Default Work Unit\CaveReverb	
+	3092587493	Pause			\Music\Pause	
+	3991942870	Music			\Music\Music	
+
+State	ID	Name	State Group			Notes
+	717767040	CaveReverb_Enabled	CaveReverb			
+	748895195	None	CaveReverb			
+	2218728873	CaveReverb_Disabled	CaveReverb			
+	748895195	None	Pause			
+	3537680115	Pause_On	Pause			
+	3967028551	Pause_Off	Pause			
+	430932854	Mus_Beach	Music			
+	748895195	None	Music			
+	1874745927	Mus_MainMenu	Music			
+	3954391251	Mus_Field_Hill	Music			
+	4139276889	Mus_Field_Farms	Music			
+
+Custom State	ID	Name	State Group	Owner		Notes
+	712694220	CaveReverb_Enabled	CaveReverb	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\CaveReverb		
+	902105772	Pause_On	Pause	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Music		
+
+Audio Bus	ID	Name			Wwise Object Path	Notes
+	393239870	SFX			\Default Work Unit\Master Audio Bus\SFX	
+	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+	3991942870	Music			\Default Work Unit\Master Audio Bus\Music	
+
+Auxiliary Bus	ID	Name			Wwise Object Path	Notes
+	1697398818	CaveReverb			\Default Work Unit\Master Audio Bus\SFX\CaveReverb	
+
+Effect plug-ins	ID	Name	Type				Notes
+	3442768367	Hall_Large_Dark	Wwise RoomVerb			
+
+Audio Devices	ID	Name	Type				Notes
+	2317455096	No_Output	No Output			
+	3859886410	System	System			
+

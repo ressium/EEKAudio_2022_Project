@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4cbe9bf576b8ec4890cea17d60f1123, type: 3}
+  m_Name: 4D48F241-4CE6-4A55-BD4F-E00457F05B3C
+  m_EditorClassIdentifier: 
+  objectName: CaveReverb_Disabled
+  id: 2218728873
+  guid: 4D48F241-4CE6-4A55-BD4F-E00457F05B3C
+  WwiseStateGroupReference: {fileID: 11400000, guid: 78cab825b602591478216dc915fb22cf,
+    type: 2}

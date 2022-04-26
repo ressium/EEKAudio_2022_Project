@@ -1,0 +1,88 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "140",
+  "RootPaths": {
+   "ProjectRoot": "C:\\Users\\mjoll\\Documents\\repositories\\EEK course\\EEKAudio_2022_Project\\UOP1_Project\\UOP1_Project_WwiseProject\\",
+   "SourceFilesRoot": "C:\\Users\\mjoll\\Documents\\repositories\\EEK course\\EEKAudio_2022_Project\\UOP1_Project\\UOP1_Project_WwiseProject\\.cache\\Mac\\",
+   "SoundBanksRoot": "C:\\Users\\mjoll\\Documents\\repositories\\EEK course\\EEKAudio_2022_Project\\UOP1_Project\\UOP1_Project_WwiseProject\\GeneratedSoundBanks\\Mac\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "C:\\Users\\mjoll\\Documents\\repositories\\EEK course\\EEKAudio_2022_Project\\UOP1_Project\\UOP1_Project_WwiseProject\\GeneratedSoundBanks\\Mac"
+  },
+  "SoundBanks": [
+   {
+    "Id": "1355168291",
+    "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
+    "Language": "SFX",
+    "Hash": "1704200303",
+    "ObjectPath": "Init",
+    "ShortName": "Init",
+    "Path": "Init.bnk",
+    "IncludedAuxBusses": [
+     {
+      "Id": "1697398818",
+      "Name": "CaveReverb",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\CaveReverb",
+      "GUID": "{DBB5E6E1-C3EC-4B1E-80A6-D3B4D9EFC165}"
+     }
+    ],
+    "StateGroups": [
+     {
+      "Id": "1697398818",
+      "Name": "CaveReverb",
+      "ObjectPath": "\\States\\Default Work Unit\\CaveReverb",
+      "GUID": "{62F7C846-EA92-462C-9F4E-7B3474524FDE}",
+      "States": [
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\Default Work Unit\\CaveReverb\\None",
+        "GUID": "{9BE472C1-7012-44DA-9381-6EF282B2097B}"
+       },
+       {
+        "Id": "717767040",
+        "Name": "CaveReverb_Enabled",
+        "ObjectPath": "\\States\\Default Work Unit\\CaveReverb\\CaveReverb_Enabled",
+        "GUID": "{8A133C79-884E-460F-AC8D-A9C0F138B1C2}"
+       },
+       {
+        "Id": "2218728873",
+        "Name": "CaveReverb_Disabled",
+        "ObjectPath": "\\States\\Default Work Unit\\CaveReverb\\CaveReverb_Disabled",
+        "GUID": "{4D48F241-4CE6-4A55-BD4F-E00457F05B3C}"
+       }
+      ]
+     },
+     {
+      "Id": "3092587493",
+      "Name": "Pause",
+      "ObjectPath": "\\States\\Music\\Pause",
+      "GUID": "{5D3C779C-8130-47C3-BFED-1E0641098106}",
+      "States": [
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\Music\\Pause\\None",
+        "GUID": "{F12F1341-B1A1-414E-90DF-4D572B9DB180}"
+       },
+       {
+        "Id": "3537680115",
+        "Name": "Pause_On",
+        "ObjectPath": "\\States\\Music\\Pause\\Pause_On",
+        "GUID": "{66FAFFE6-0D55-4278-8DCA-0354883339FD}"
+       },
+       {
+        "Id": "3967028551",
+        "Name": "Pause_Off",
+        "ObjectPath": "\\States\\Music\\Pause\\Pause_Off",
+        "GUID": "{0725D63E-5068-4B78-9CBA-8997F1D1349F}"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

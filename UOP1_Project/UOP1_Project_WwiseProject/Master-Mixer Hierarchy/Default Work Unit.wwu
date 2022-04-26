@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{FFF89F6D-37E9-4F4B-BBB7-3E1D357CB3C5}" SchemaVersion="103">
+	<Busses>
+		<WorkUnit Name="Default Work Unit" ID="{FFF89F6D-37E9-4F4B-BBB7-3E1D357CB3C5}" PersistMode="Standalone">
+			<ChildrenList>
+				<Bus Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}">
+					<ReferenceList>
+						<Reference Name="AudioDevice">
+							<ObjectRef Name="System" ID="{284EB990-BA97-4BA8-B7AD-4DFDD3E38878}" WorkUnitID="{67BFBC61-61D5-43FF-B13C-C22A4E01DB9A}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Bus Name="SFX" ID="{EB807E86-C8A2-4830-8A3A-1D1031BE0961}">
+							<ReferenceList>
+								<Reference Name="UserAuxSend0">
+									<ObjectRef Name="CaveReverb" ID="{DBB5E6E1-C3EC-4B1E-80A6-D3B4D9EFC165}" WorkUnitID="{FFF89F6D-37E9-4F4B-BBB7-3E1D357CB3C5}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AuxBus Name="CaveReverb" ID="{DBB5E6E1-C3EC-4B1E-80A6-D3B4D9EFC165}">
+									<PropertyList>
+										<Property Name="BusVolume" Type="Real64">
+											<ValueList>
+												<Value>-96</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Effect0" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+											<ObjectRef Name="Hall_Large_Dark" ID="{0F6A7D6D-131C-4650-9561-FC05F5C7A37B}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+										</Reference>
+									</ReferenceList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo>
+												<StateGroupRef Name="CaveReverb" ID="{62F7C846-EA92-462C-9F4E-7B3474524FDE}"/>
+											</StateGroupInfo>
+											<StateGroupInfo>
+												<StateGroupRef Name="Pause" ID="{5D3C779C-8130-47C3-BFED-1E0641098106}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="Pause_On" ID="{66FAFFE6-0D55-4278-8DCA-0354883339FD}"/>
+												<CustomState Name="" ID="{8CA3C956-50C7-4CB7-B37E-C3709130446F}" ShortID="802055392"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="CaveReverb_Enabled" ID="{8A133C79-884E-460F-AC8D-A9C0F138B1C2}"/>
+												<CustomState Name="" ID="{4FD79552-F300-4C71-B1E3-E5AD7C67149B}" ShortID="712694220">
+													<PropertyList>
+														<Property Name="BusVolume" Type="Real64" Value="96"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="CaveReverb_Disabled" ID="{4D48F241-4CE6-4A55-BD4F-E00457F05B3C}"/>
+												<CustomState Name="" ID="{679629E4-19B2-4900-8FE1-5B05CDFC0DA7}" ShortID="738389436"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Pause_Off" ID="{0725D63E-5068-4B78-9CBA-8997F1D1349F}"/>
+												<CustomState Name="" ID="{7C217B60-1EFF-490B-8ABC-DE474E09A16D}" ShortID="714545195"/>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
+									<ObjectLists/>
+								</AuxBus>
+							</ChildrenList>
+							<ObjectLists/>
+						</Bus>
+						<Bus Name="Music" ID="{5506F693-7D0C-43BF-806E-633BE5569559}">
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="Pause" ID="{5D3C779C-8130-47C3-BFED-1E0641098106}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="Pause_On" ID="{66FAFFE6-0D55-4278-8DCA-0354883339FD}"/>
+										<CustomState Name="" ID="{7EB11D21-496F-40D7-BD93-5B31024A70CD}" ShortID="902105772">
+											<PropertyList>
+												<Property Name="Highpass" Type="int16" Value="41"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Pause_Off" ID="{0725D63E-5068-4B78-9CBA-8997F1D1349F}"/>
+										<CustomState Name="" ID="{A4ECB88C-A9AD-4A98-B36A-CDC49CEB1AB1}" ShortID="1026386799"/>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
+							<ObjectLists/>
+						</Bus>
+					</ChildrenList>
+					<ObjectLists/>
+				</Bus>
+			</ChildrenList>
+		</WorkUnit>
+	</Busses>
+</WwiseDocument>

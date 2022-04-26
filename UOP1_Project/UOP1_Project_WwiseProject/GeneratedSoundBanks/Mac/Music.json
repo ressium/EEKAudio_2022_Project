@@ -1,0 +1,89 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "140",
+  "RootPaths": {
+   "ProjectRoot": "C:\\Users\\mjoll\\Documents\\repositories\\EEK course\\EEKAudio_2022_Project\\UOP1_Project\\UOP1_Project_WwiseProject\\",
+   "SourceFilesRoot": "C:\\Users\\mjoll\\Documents\\repositories\\EEK course\\EEKAudio_2022_Project\\UOP1_Project\\UOP1_Project_WwiseProject\\.cache\\Mac\\",
+   "SoundBanksRoot": "C:\\Users\\mjoll\\Documents\\repositories\\EEK course\\EEKAudio_2022_Project\\UOP1_Project\\UOP1_Project_WwiseProject\\GeneratedSoundBanks\\Mac\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "C:\\Users\\mjoll\\Documents\\repositories\\EEK course\\EEKAudio_2022_Project\\UOP1_Project\\UOP1_Project_WwiseProject\\GeneratedSoundBanks\\Mac"
+  },
+  "SoundBanks": [
+   {
+    "Id": "3991942870",
+    "GUID": "{33846118-30EB-491F-BA51-6B900B7B3237}",
+    "Language": "SFX",
+    "Hash": "3470493165",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\Music",
+    "ShortName": "Music",
+    "Path": "Music.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "3991942870",
+      "Name": "Music",
+      "ObjectPath": "\\Events\\Music\\Music",
+      "GUID": "{A399DFEE-2EAA-4A3D-A209-A7AD7AAE02B5}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.",
+      "DurationMax": "0."
+     },
+     {
+      "Id": "2179654399",
+      "Name": "Pause_Menu_Off",
+      "ObjectPath": "\\Events\\Music\\Pause_Menu_Off",
+      "GUID": "{08DFDC1B-8276-411D-A16D-09B36D0FE31D}",
+      "MaxAttenuation": "0.",
+      "DurationType": "OneShot",
+      "DurationMin": "0.",
+      "DurationMax": "0.",
+      "ActionSetState": [
+       {
+        "Id": "3967028551",
+        "Name": "Pause_Off",
+        "ObjectPath": "\\States\\Music\\Pause\\Pause_Off",
+        "GUID": "{0725D63E-5068-4B78-9CBA-8997F1D1349F}"
+       }
+      ]
+     },
+     {
+      "Id": "3483621035",
+      "Name": "Pause_Menu_On",
+      "ObjectPath": "\\Events\\Music\\Pause_Menu_On",
+      "GUID": "{E41AF1B5-7241-472E-9D34-D46A690B69DC}",
+      "MaxAttenuation": "0.",
+      "DurationType": "OneShot",
+      "DurationMin": "0.",
+      "DurationMax": "0.",
+      "ActionSetState": [
+       {
+        "Id": "3537680115",
+        "Name": "Pause_On",
+        "ObjectPath": "\\States\\Music\\Pause\\Pause_On",
+        "GUID": "{66FAFFE6-0D55-4278-8DCA-0354883339FD}"
+       }
+      ]
+     }
+    ],
+    "StateGroups": [
+     {
+      "Id": "3537680115",
+      "Name": "Pause_On",
+      "ObjectPath": "\\States\\Music\\Pause\\Pause_On",
+      "GUID": "{66FAFFE6-0D55-4278-8DCA-0354883339FD}",
+      "States": []
+     },
+     {
+      "Id": "3967028551",
+      "Name": "Pause_Off",
+      "ObjectPath": "\\States\\Music\\Pause\\Pause_Off",
+      "GUID": "{0725D63E-5068-4B78-9CBA-8997F1D1349F}",
+      "States": []
+     }
+    ]
+   }
+  ]
+ }
+}

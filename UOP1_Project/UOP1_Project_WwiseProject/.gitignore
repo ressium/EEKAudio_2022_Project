@@ -1,0 +1,7 @@
+/.cache/
+# PluginInfo.xml
+# SoundbanksInfo.xml
+*.validationcache
+*.akd
+*.prof
+*.wsettings

@@ -1,0 +1,23 @@
+{
+ "PluginInfo": {
+  "Project": "UOP1_Project_WwiseProject",
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "Plugins": [
+   {
+    "Name": "Wwise RoomVerb",
+    "ID": "7733251",
+    "DLL": "AkRoomVerb",
+    "StaticLib": "AkRoomVerbFX"
+   },
+   {
+    "Name": "System",
+    "ID": "11403271"
+   },
+   {
+    "Name": "No Output",
+    "ID": "11862023"
+   }
+  ]
+ }
+}

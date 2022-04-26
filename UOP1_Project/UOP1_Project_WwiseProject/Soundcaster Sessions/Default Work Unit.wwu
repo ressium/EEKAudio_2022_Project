@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{02569429-470C-41B8-BBFE-161280DDEBF1}" SchemaVersion="103">
+	<SoundcasterSessions>
+		<WorkUnit Name="Default Work Unit" ID="{02569429-470C-41B8-BBFE-161280DDEBF1}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="New Soundcaster Session" ID="{D27E4317-2AAE-4CAF-AF10-32B5D79E036C}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Music" ID="{A399DFEE-2EAA-4A3D-A209-A7AD7AAE02B5}" WorkUnitID="{973EF824-929B-46A2-8D78-81B31C0BDFAC}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Scene_Change" ID="{07C77A48-4161-4733-9374-1E25B5B1642D}" WorkUnitID="{8764B89E-BEAC-4BB1-8D7B-846D143E520D}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true"/>
+					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="CaveReverb_Enabled" ID="{8A133C79-884E-460F-AC8D-A9C0F138B1C2}"/>
+						<CurrentStateRef Name="Pause_Off" ID="{0725D63E-5068-4B78-9CBA-8997F1D1349F}"/>
+						<CurrentStateRef Name="Mus_Field_Farms" ID="{75BD13A5-6921-48F5-8E93-26E02C10B70E}"/>
+					</CurrentStateList>
+					<CurrentSwitchList ShowAll="true"/>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundcasterSessions>
+</WwiseDocument>

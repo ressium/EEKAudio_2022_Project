@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{5390DFB1-2588-49D9-92B1-0500AE6D6911}" SchemaVersion="103">
+	<States>
+		<WorkUnit Name="Default Work Unit" ID="{5390DFB1-2588-49D9-92B1-0500AE6D6911}" PersistMode="Standalone">
+			<ChildrenList>
+				<StateGroup Name="CaveReverb" ID="{62F7C846-EA92-462C-9F4E-7B3474524FDE}">
+					<ChildrenList>
+						<State Name="None" ID="{9BE472C1-7012-44DA-9381-6EF282B2097B}"/>
+						<State Name="CaveReverb_Enabled" ID="{8A133C79-884E-460F-AC8D-A9C0F138B1C2}"/>
+						<State Name="CaveReverb_Disabled" ID="{4D48F241-4CE6-4A55-BD4F-E00457F05B3C}"/>
+					</ChildrenList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</States>
+</WwiseDocument>

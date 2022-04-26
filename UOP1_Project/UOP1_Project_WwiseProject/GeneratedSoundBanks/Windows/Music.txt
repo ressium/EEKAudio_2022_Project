@@ -1,0 +1,5 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2179654399	Pause_Menu_Off			\Music\Pause_Menu_Off	
+	3483621035	Pause_Menu_On			\Music\Pause_Menu_On	
+	3991942870	Music			\Music\Music	
+

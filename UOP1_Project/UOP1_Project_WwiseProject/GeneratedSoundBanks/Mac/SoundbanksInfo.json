@@ -1,0 +1,236 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "140",
+  "RootPaths": {
+   "ProjectRoot": "C:\\Users\\mjoll\\Documents\\repositories\\EEK course\\EEKAudio_2022_Project\\UOP1_Project\\UOP1_Project_WwiseProject\\",
+   "SourceFilesRoot": "C:\\Users\\mjoll\\Documents\\repositories\\EEK course\\EEKAudio_2022_Project\\UOP1_Project\\UOP1_Project_WwiseProject\\.cache\\Mac\\",
+   "SoundBanksRoot": "C:\\Users\\mjoll\\Documents\\repositories\\EEK course\\EEKAudio_2022_Project\\UOP1_Project\\UOP1_Project_WwiseProject\\GeneratedSoundBanks\\Mac\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "C:\\Users\\mjoll\\Documents\\repositories\\EEK course\\EEKAudio_2022_Project\\UOP1_Project\\UOP1_Project_WwiseProject\\GeneratedSoundBanks\\Mac"
+  },
+  "DialogueEvents": [],
+  "StreamedFiles": [],
+  "MediaFilesNotInAnyBank": [],
+  "SoundBanks": [
+   {
+    "Id": "393239870",
+    "GUID": "{9DF4FF59-820F-47C8-8B41-ED0471029A30}",
+    "Language": "SFX",
+    "Hash": "2194326956",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SFX",
+    "ShortName": "SFX",
+    "Path": "SFX.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "1879932703",
+      "Name": "CaveReverb_Disable",
+      "ObjectPath": "\\Events\\Ambience\\Reverb\\CaveReverb_Disable",
+      "GUID": "{B1387412-0137-4348-BA74-549A18F48604}",
+      "MaxAttenuation": "0.",
+      "DurationType": "OneShot",
+      "DurationMin": "0.",
+      "DurationMax": "0.",
+      "ActionSetState": [
+       {
+        "Id": "2218728873",
+        "Name": "CaveReverb_Disabled",
+        "ObjectPath": "\\States\\Default Work Unit\\CaveReverb\\CaveReverb_Disabled",
+        "GUID": "{4D48F241-4CE6-4A55-BD4F-E00457F05B3C}"
+       }
+      ]
+     },
+     {
+      "Id": "1940944140",
+      "Name": "CaveReverb_Enable",
+      "ObjectPath": "\\Events\\Ambience\\Reverb\\CaveReverb_Enable",
+      "GUID": "{ED01CA85-5445-4A10-BA81-E68194E22985}",
+      "MaxAttenuation": "0.",
+      "DurationType": "OneShot",
+      "DurationMin": "0.",
+      "DurationMax": "0.",
+      "ActionSetState": [
+       {
+        "Id": "717767040",
+        "Name": "CaveReverb_Enabled",
+        "ObjectPath": "\\States\\Default Work Unit\\CaveReverb\\CaveReverb_Enabled",
+        "GUID": "{8A133C79-884E-460F-AC8D-A9C0F138B1C2}"
+       }
+      ]
+     },
+     {
+      "Id": "3170972326",
+      "Name": "Scene_Change",
+      "ObjectPath": "\\Events\\Control\\Scene_Change",
+      "GUID": "{07C77A48-4161-4733-9374-1E25B5B1642D}",
+      "MaxAttenuation": "0.",
+      "DurationType": "OneShot",
+      "DurationMin": "0.",
+      "DurationMax": "0."
+     }
+    ],
+    "StateGroups": [
+     {
+      "Id": "717767040",
+      "Name": "CaveReverb_Enabled",
+      "ObjectPath": "\\States\\Default Work Unit\\CaveReverb\\CaveReverb_Enabled",
+      "GUID": "{8A133C79-884E-460F-AC8D-A9C0F138B1C2}",
+      "States": []
+     },
+     {
+      "Id": "2218728873",
+      "Name": "CaveReverb_Disabled",
+      "ObjectPath": "\\States\\Default Work Unit\\CaveReverb\\CaveReverb_Disabled",
+      "GUID": "{4D48F241-4CE6-4A55-BD4F-E00457F05B3C}",
+      "States": []
+     }
+    ]
+   },
+   {
+    "Id": "1355168291",
+    "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
+    "Language": "SFX",
+    "Hash": "1704200303",
+    "ObjectPath": "Init",
+    "ShortName": "Init",
+    "Path": "Init.bnk",
+    "IncludedAuxBusses": [
+     {
+      "Id": "1697398818",
+      "Name": "CaveReverb",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\CaveReverb",
+      "GUID": "{DBB5E6E1-C3EC-4B1E-80A6-D3B4D9EFC165}"
+     }
+    ],
+    "StateGroups": [
+     {
+      "Id": "1697398818",
+      "Name": "CaveReverb",
+      "ObjectPath": "\\States\\Default Work Unit\\CaveReverb",
+      "GUID": "{62F7C846-EA92-462C-9F4E-7B3474524FDE}",
+      "States": [
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\Default Work Unit\\CaveReverb\\None",
+        "GUID": "{9BE472C1-7012-44DA-9381-6EF282B2097B}"
+       },
+       {
+        "Id": "717767040",
+        "Name": "CaveReverb_Enabled",
+        "ObjectPath": "\\States\\Default Work Unit\\CaveReverb\\CaveReverb_Enabled",
+        "GUID": "{8A133C79-884E-460F-AC8D-A9C0F138B1C2}"
+       },
+       {
+        "Id": "2218728873",
+        "Name": "CaveReverb_Disabled",
+        "ObjectPath": "\\States\\Default Work Unit\\CaveReverb\\CaveReverb_Disabled",
+        "GUID": "{4D48F241-4CE6-4A55-BD4F-E00457F05B3C}"
+       }
+      ]
+     },
+     {
+      "Id": "3092587493",
+      "Name": "Pause",
+      "ObjectPath": "\\States\\Music\\Pause",
+      "GUID": "{5D3C779C-8130-47C3-BFED-1E0641098106}",
+      "States": [
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\Music\\Pause\\None",
+        "GUID": "{F12F1341-B1A1-414E-90DF-4D572B9DB180}"
+       },
+       {
+        "Id": "3537680115",
+        "Name": "Pause_On",
+        "ObjectPath": "\\States\\Music\\Pause\\Pause_On",
+        "GUID": "{66FAFFE6-0D55-4278-8DCA-0354883339FD}"
+       },
+       {
+        "Id": "3967028551",
+        "Name": "Pause_Off",
+        "ObjectPath": "\\States\\Music\\Pause\\Pause_Off",
+        "GUID": "{0725D63E-5068-4B78-9CBA-8997F1D1349F}"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "Id": "3991942870",
+    "GUID": "{33846118-30EB-491F-BA51-6B900B7B3237}",
+    "Language": "SFX",
+    "Hash": "3470493165",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\Music",
+    "ShortName": "Music",
+    "Path": "Music.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "3991942870",
+      "Name": "Music",
+      "ObjectPath": "\\Events\\Music\\Music",
+      "GUID": "{A399DFEE-2EAA-4A3D-A209-A7AD7AAE02B5}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.",
+      "DurationMax": "0."
+     },
+     {
+      "Id": "2179654399",
+      "Name": "Pause_Menu_Off",
+      "ObjectPath": "\\Events\\Music\\Pause_Menu_Off",
+      "GUID": "{08DFDC1B-8276-411D-A16D-09B36D0FE31D}",
+      "MaxAttenuation": "0.",
+      "DurationType": "OneShot",
+      "DurationMin": "0.",
+      "DurationMax": "0.",
+      "ActionSetState": [
+       {
+        "Id": "3967028551",
+        "Name": "Pause_Off",
+        "ObjectPath": "\\States\\Music\\Pause\\Pause_Off",
+        "GUID": "{0725D63E-5068-4B78-9CBA-8997F1D1349F}"
+       }
+      ]
+     },
+     {
+      "Id": "3483621035",
+      "Name": "Pause_Menu_On",
+      "ObjectPath": "\\Events\\Music\\Pause_Menu_On",
+      "GUID": "{E41AF1B5-7241-472E-9D34-D46A690B69DC}",
+      "MaxAttenuation": "0.",
+      "DurationType": "OneShot",
+      "DurationMin": "0.",
+      "DurationMax": "0.",
+      "ActionSetState": [
+       {
+        "Id": "3537680115",
+        "Name": "Pause_On",
+        "ObjectPath": "\\States\\Music\\Pause\\Pause_On",
+        "GUID": "{66FAFFE6-0D55-4278-8DCA-0354883339FD}"
+       }
+      ]
+     }
+    ],
+    "StateGroups": [
+     {
+      "Id": "3537680115",
+      "Name": "Pause_On",
+      "ObjectPath": "\\States\\Music\\Pause\\Pause_On",
+      "GUID": "{66FAFFE6-0D55-4278-8DCA-0354883339FD}",
+      "States": []
+     },
+     {
+      "Id": "3967028551",
+      "Name": "Pause_Off",
+      "ObjectPath": "\\States\\Music\\Pause\\Pause_Off",
+      "GUID": "{0725D63E-5068-4B78-9CBA-8997F1D1349F}",
+      "States": []
+     }
+    ]
+   }
+  ]
+ }
+}

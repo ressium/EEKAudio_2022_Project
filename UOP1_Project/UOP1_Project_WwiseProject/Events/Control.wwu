@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{8764B89E-BEAC-4BB1-8D7B-846D143E520D}" SchemaVersion="103">
+	<Events>
+		<WorkUnit Name="Control" ID="{8764B89E-BEAC-4BB1-8D7B-846D143E520D}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Scene_Change" ID="{07C77A48-4161-4733-9374-1E25B5B1642D}">
+					<ChildrenList>
+						<Action Name="" ID="{C078DD01-CC11-4BB8-8B22-7417D36648F1}" ShortID="546972197">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeOutCurve" Type="int16" Value="6"/>
+								<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX" ID="{EB807E86-C8A2-4830-8A3A-1D1031BE0961}" WorkUnitID="{FFF89F6D-37E9-4F4B-BBB7-3E1D357CB3C5}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

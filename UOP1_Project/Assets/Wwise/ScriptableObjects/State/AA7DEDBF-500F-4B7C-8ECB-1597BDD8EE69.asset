@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4cbe9bf576b8ec4890cea17d60f1123, type: 3}
+  m_Name: AA7DEDBF-500F-4B7C-8ECB-1597BDD8EE69
+  m_EditorClassIdentifier: 
+  objectName: Underwater_Off
+  id: 2802431236
+  guid: AA7DEDBF-500F-4B7C-8ECB-1597BDD8EE69
+  WwiseStateGroupReference: {fileID: 11400000, guid: 0c53775ec73cfc3488d69f3953876604,
+    type: 2}

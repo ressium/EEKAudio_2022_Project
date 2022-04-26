@@ -1,0 +1,635 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15f732e4b6f9d1641b1c6b9b48c5b709, type: 3}
+  m_Name: AkWwiseProjectData
+  m_EditorClassIdentifier: 
+  AcousticTextureWwu:
+  - PhysicalPath: Virtual Acoustics\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Virtual Acoustics
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 6217880e2037214a91d92bf8d3dc8914
+    ParentPath: Virtual Acoustics\Default Work Unit
+    guid: 6217880e2037214a91d92bf8d3dc8914
+    GuidInternal: 
+    m_lastTime: -8585519069054894448
+    List: []
+  AuxBusWwu:
+  - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Master-Mixer Hierarchy
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 6d9ff8ffe9374b4fbbb73e1d357cb3c5
+    ParentPath: Master-Mixer Hierarchy\Default Work Unit
+    guid: 6d9ff8ffe9374b4fbbb73e1d357cb3c5
+    GuidInternal: 
+    m_lastTime: -8585506135062914299
+    List:
+    - name: CaveReverb
+      guid: e1e6b5dbecc31e4b80a6d3b4d9efc165
+      id: 1697398818
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 6d9ff8ffe9374b4fbbb73e1d357cb3c5
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: SFX
+        ObjectType: 2
+        guid: 867e80eba2c830488a3a1d1031be0961
+      - ElementName: CaveReverb
+        ObjectType: 1
+        guid: e1e6b5dbecc31e4b80a6d3b4d9efc165
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\CaveReverb
+    - name: Master Audio Bus
+      guid: d8a41415a61d2a41a17e75ca0c2149f3
+      id: 3803692087
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 6d9ff8ffe9374b4fbbb73e1d357cb3c5
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus
+    - name: Music
+      guid: 93f606550c7dbf43806e633be5569559
+      id: 3991942870
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 6d9ff8ffe9374b4fbbb73e1d357cb3c5
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: Music
+        ObjectType: 2
+        guid: 93f606550c7dbf43806e633be5569559
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Music
+    - name: SFX
+      guid: 867e80eba2c830488a3a1d1031be0961
+      id: 393239870
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 6d9ff8ffe9374b4fbbb73e1d357cb3c5
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: SFX
+        ObjectType: 2
+        guid: 867e80eba2c830488a3a1d1031be0961
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX
+  BankWwu:
+  - PhysicalPath: SoundBanks\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: SoundBanks
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: cd4a6721a693ed4382e34f20bf0d65e6
+    ParentPath: SoundBanks\Default Work Unit
+    guid: cd4a6721a693ed4382e34f20bf0d65e6
+    GuidInternal: 
+    m_lastTime: -8585506128822121117
+    List:
+    - name: Music
+      guid: 18618433eb301f49ba516b900b7b3237
+      id: 3991942870
+      PathAndIcons:
+      - ElementName: SoundBanks
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: cd4a6721a693ed4382e34f20bf0d65e6
+      - ElementName: Music
+        ObjectType: 7
+        guid: 18618433eb301f49ba516b900b7b3237
+      Path: SoundBanks\Default Work Unit\Music
+    - name: SFX
+      guid: 59fff49d0f82c8478b41ed0471029a30
+      id: 393239870
+      PathAndIcons:
+      - ElementName: SoundBanks
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: cd4a6721a693ed4382e34f20bf0d65e6
+      - ElementName: SFX
+        ObjectType: 7
+        guid: 59fff49d0f82c8478b41ed0471029a30
+      Path: SoundBanks\Default Work Unit\SFX
+  EventWwu:
+  - PhysicalPath: Events\Ambience.wwu
+    PathAndIcons:
+    - ElementName: Events
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Ambience
+      ObjectType: 12
+      guid: d2ced58090a83945ae65d1fa261578a0
+    ParentPath: Events\Ambience
+    guid: d2ced58090a83945ae65d1fa261578a0
+    GuidInternal: 
+    m_lastTime: -8585506133413861259
+    List:
+    - name: CaveReverb_Disable
+      guid: 127438b137014843ba74549a18f48604
+      id: 1879932703
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Ambience
+        ObjectType: 12
+        guid: d2ced58090a83945ae65d1fa261578a0
+      - ElementName: Reverb
+        ObjectType: 4
+        guid: b0d3bb8d461acf4e8d49947518b3565b
+      - ElementName: CaveReverb_Disable
+        ObjectType: 3
+        guid: 127438b137014843ba74549a18f48604
+      Path: Events\Ambience\Reverb\CaveReverb_Disable
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: CaveReverb_Enable
+      guid: 85ca01ed4554104aba81e68194e22985
+      id: 1940944140
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Ambience
+        ObjectType: 12
+        guid: d2ced58090a83945ae65d1fa261578a0
+      - ElementName: Reverb
+        ObjectType: 4
+        guid: b0d3bb8d461acf4e8d49947518b3565b
+      - ElementName: CaveReverb_Enable
+        ObjectType: 3
+        guid: 85ca01ed4554104aba81e68194e22985
+      Path: Events\Ambience\Reverb\CaveReverb_Enable
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Reverb
+      guid: b0d3bb8d461acf4e8d49947518b3565b
+      id: 348963605
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Ambience
+        ObjectType: 12
+        guid: d2ced58090a83945ae65d1fa261578a0
+      - ElementName: Reverb
+        ObjectType: 4
+        guid: b0d3bb8d461acf4e8d49947518b3565b
+      Path: Events\Ambience\Reverb
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+  - PhysicalPath: Events\Control.wwu
+    PathAndIcons:
+    - ElementName: Events
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Control
+      ObjectType: 12
+      guid: 9eb86487acbeb14b8d7b846d143e520d
+    ParentPath: Events\Control
+    guid: 9eb86487acbeb14b8d7b846d143e520d
+    GuidInternal: 
+    m_lastTime: -8585519069055881487
+    List:
+    - name: Scene_Change
+      guid: 487ac7076141334793741e25b5b1642d
+      id: 3170972326
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Control
+        ObjectType: 12
+        guid: 9eb86487acbeb14b8d7b846d143e520d
+      - ElementName: Scene_Change
+        ObjectType: 3
+        guid: 487ac7076141334793741e25b5b1642d
+      Path: Events\Control\Scene_Change
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+  - PhysicalPath: Events\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Events
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 1d50cb0bda87914f8a3aa7fefa9d0a8d
+    ParentPath: Events\Default Work Unit
+    guid: 1d50cb0bda87914f8a3aa7fefa9d0a8d
+    GuidInternal: 
+    m_lastTime: -8585519069055876542
+    List: []
+  - PhysicalPath: Events\Music.wwu
+    PathAndIcons:
+    - ElementName: Events
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Music
+      ObjectType: 12
+      guid: 24f83e979b92a2468d7881b31c0bdfac
+    ParentPath: Events\Music
+    guid: 24f83e979b92a2468d7881b31c0bdfac
+    GuidInternal: 
+    m_lastTime: -8585519069055866622
+    List:
+    - name: Music
+      guid: eedf99a3aa2e3d4aa209a7ad7aae02b5
+      id: 3991942870
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Music
+        ObjectType: 12
+        guid: 24f83e979b92a2468d7881b31c0bdfac
+      - ElementName: Music
+        ObjectType: 3
+        guid: eedf99a3aa2e3d4aa209a7ad7aae02b5
+      Path: Events\Music\Music
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Pause_Menu_Off
+      guid: 1bdcdf0876821d41a16d09b36d0fe31d
+      id: 2179654399
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Music
+        ObjectType: 12
+        guid: 24f83e979b92a2468d7881b31c0bdfac
+      - ElementName: Pause_Menu_Off
+        ObjectType: 3
+        guid: 1bdcdf0876821d41a16d09b36d0fe31d
+      Path: Events\Music\Pause_Menu_Off
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Pause_Menu_On
+      guid: b5f11ae441722e479d34d46a690b69dc
+      id: 3483621035
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Music
+        ObjectType: 12
+        guid: 24f83e979b92a2468d7881b31c0bdfac
+      - ElementName: Pause_Menu_On
+        ObjectType: 3
+        guid: b5f11ae441722e479d34d46a690b69dc
+      Path: Events\Music\Pause_Menu_On
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+  RtpcWwu:
+  - PhysicalPath: Game Parameters\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Game Parameters
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: dbd5f847746f0c4b859d698a15e4a228
+    ParentPath: Game Parameters\Default Work Unit
+    guid: dbd5f847746f0c4b859d698a15e4a228
+    GuidInternal: 
+    m_lastTime: -8585506133413761501
+    List: []
+  StateWwu:
+  - PhysicalPath: States\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: States
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: b1df90538825d94992b10500ae6d6911
+    ParentPath: States\Default Work Unit
+    guid: b1df90538825d94992b10500ae6d6911
+    GuidInternal: 
+    m_lastTime: -8585506135062385705
+    List:
+    - name: CaveReverb
+      guid: 46c8f76292ea2c469f4e7b3474524fde
+      id: 1697398818
+      PathAndIcons:
+      - ElementName: States
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: b1df90538825d94992b10500ae6d6911
+      - ElementName: CaveReverb
+        ObjectType: 9
+        guid: 46c8f76292ea2c469f4e7b3474524fde
+      Path: States\Default Work Unit\CaveReverb
+      values:
+      - name: CaveReverb_Disabled
+        guid: 41f2484de64c554abd4fe00457f05b3c
+        id: 2218728873
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: b1df90538825d94992b10500ae6d6911
+        - ElementName: CaveReverb
+          ObjectType: 9
+          guid: 46c8f76292ea2c469f4e7b3474524fde
+        - ElementName: CaveReverb_Disabled
+          ObjectType: 8
+          guid: 41f2484de64c554abd4fe00457f05b3c
+      - name: CaveReverb_Enabled
+        guid: 793c138a4e880f46ac8da9c0f138b1c2
+        id: 717767040
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: b1df90538825d94992b10500ae6d6911
+        - ElementName: CaveReverb
+          ObjectType: 9
+          guid: 46c8f76292ea2c469f4e7b3474524fde
+        - ElementName: CaveReverb_Enabled
+          ObjectType: 8
+          guid: 793c138a4e880f46ac8da9c0f138b1c2
+      - name: None
+        guid: c172e49b1270da4493816ef282b2097b
+        id: 748895195
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: b1df90538825d94992b10500ae6d6911
+        - ElementName: CaveReverb
+          ObjectType: 9
+          guid: 46c8f76292ea2c469f4e7b3474524fde
+        - ElementName: None
+          ObjectType: 8
+          guid: c172e49b1270da4493816ef282b2097b
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+  - PhysicalPath: States\Music.wwu
+    PathAndIcons:
+    - ElementName: States
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Music
+      ObjectType: 12
+      guid: de4658d6312446499099365c761abc67
+    ParentPath: States\Music
+    guid: de4658d6312446499099365c761abc67
+    GuidInternal: 
+    m_lastTime: -8585506221953117771
+    List:
+    - name: Music
+      guid: ecb57b5c0a57514d9486ce2b6ff7dec1
+      id: 3991942870
+      PathAndIcons:
+      - ElementName: States
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Music
+        ObjectType: 12
+        guid: de4658d6312446499099365c761abc67
+      - ElementName: Music
+        ObjectType: 9
+        guid: ecb57b5c0a57514d9486ce2b6ff7dec1
+      Path: States\Music\Music
+      values:
+      - name: Mus_Beach
+        guid: 72b05389e1e2954e9860f0243b381c1d
+        id: 430932854
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Music
+          ObjectType: 12
+          guid: de4658d6312446499099365c761abc67
+        - ElementName: Music
+          ObjectType: 9
+          guid: ecb57b5c0a57514d9486ce2b6ff7dec1
+        - ElementName: Mus_Beach
+          ObjectType: 8
+          guid: 72b05389e1e2954e9860f0243b381c1d
+      - name: Mus_Field_Farms
+        guid: a513bd752169f5488e9326e02c10b70e
+        id: 4139276889
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Music
+          ObjectType: 12
+          guid: de4658d6312446499099365c761abc67
+        - ElementName: Music
+          ObjectType: 9
+          guid: ecb57b5c0a57514d9486ce2b6ff7dec1
+        - ElementName: Mus_Field_Farms
+          ObjectType: 8
+          guid: a513bd752169f5488e9326e02c10b70e
+      - name: Mus_Field_Hill
+        guid: 8762d8050d31c546bb8657f2984684f4
+        id: 3954391251
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Music
+          ObjectType: 12
+          guid: de4658d6312446499099365c761abc67
+        - ElementName: Music
+          ObjectType: 9
+          guid: ecb57b5c0a57514d9486ce2b6ff7dec1
+        - ElementName: Mus_Field_Hill
+          ObjectType: 8
+          guid: 8762d8050d31c546bb8657f2984684f4
+      - name: Mus_MainMenu
+        guid: dba8f20a37d4984ca09c0ebee1fedc62
+        id: 1874745927
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Music
+          ObjectType: 12
+          guid: de4658d6312446499099365c761abc67
+        - ElementName: Music
+          ObjectType: 9
+          guid: ecb57b5c0a57514d9486ce2b6ff7dec1
+        - ElementName: Mus_MainMenu
+          ObjectType: 8
+          guid: dba8f20a37d4984ca09c0ebee1fedc62
+      - name: None
+        guid: 0405cbe97b2c6042a5b9a2bee640fbe0
+        id: 748895195
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Music
+          ObjectType: 12
+          guid: de4658d6312446499099365c761abc67
+        - ElementName: Music
+          ObjectType: 9
+          guid: ecb57b5c0a57514d9486ce2b6ff7dec1
+        - ElementName: None
+          ObjectType: 8
+          guid: 0405cbe97b2c6042a5b9a2bee640fbe0
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+    - name: Pause
+      guid: 9c773c5d3081c347bfed1e0641098106
+      id: 3092587493
+      PathAndIcons:
+      - ElementName: States
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Music
+        ObjectType: 12
+        guid: de4658d6312446499099365c761abc67
+      - ElementName: Pause
+        ObjectType: 9
+        guid: 9c773c5d3081c347bfed1e0641098106
+      Path: States\Music\Pause
+      values:
+      - name: None
+        guid: 41132ff1a1b14e4190df4d572b9db180
+        id: 748895195
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Music
+          ObjectType: 12
+          guid: de4658d6312446499099365c761abc67
+        - ElementName: Pause
+          ObjectType: 9
+          guid: 9c773c5d3081c347bfed1e0641098106
+        - ElementName: None
+          ObjectType: 8
+          guid: 41132ff1a1b14e4190df4d572b9db180
+      - name: Pause_Off
+        guid: 3ed625076850784b9cba8997f1d1349f
+        id: 3967028551
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Music
+          ObjectType: 12
+          guid: de4658d6312446499099365c761abc67
+        - ElementName: Pause
+          ObjectType: 9
+          guid: 9c773c5d3081c347bfed1e0641098106
+        - ElementName: Pause_Off
+          ObjectType: 8
+          guid: 3ed625076850784b9cba8997f1d1349f
+      - name: Pause_On
+        guid: e6fffa66550d78428dca0354883339fd
+        id: 3537680115
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Music
+          ObjectType: 12
+          guid: de4658d6312446499099365c761abc67
+        - ElementName: Pause
+          ObjectType: 9
+          guid: 9c773c5d3081c347bfed1e0641098106
+        - ElementName: Pause_On
+          ObjectType: 8
+          guid: e6fffa66550d78428dca0354883339fd
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+  SwitchWwu:
+  - PhysicalPath: Switches\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Switches
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 928a633f4187a14aa380324137b6ca3f
+    ParentPath: Switches\Default Work Unit
+    guid: 928a633f4187a14aa380324137b6ca3f
+    GuidInternal: 
+    m_lastTime: -8585506135062505380
+    List: []
+  TriggerWwu:
+  - PhysicalPath: Triggers\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Triggers
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 523643f2ef2d7143ae60717c4f9ee6b7
+    ParentPath: Triggers\Default Work Unit
+    guid: 523643f2ef2d7143ae60717c4f9ee6b7
+    GuidInternal: 
+    m_lastTime: -8585519069054919260
+    List: []
+  ExpandedFileSystemItemIds: 
+  ExpandedWaapiItemIds: 05000000
+  AutoSyncSelection: 0
+  autoPopulateEnabled: 1
+  currentDataSource: 0
+  CurrentPluginConfig: 

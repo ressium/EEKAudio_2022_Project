@@ -1,0 +1,5 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1879932703	CaveReverb_Disable			\Ambience\Reverb\CaveReverb_Disable	
+	1940944140	CaveReverb_Enable			\Ambience\Reverb\CaveReverb_Enable	
+	3170972326	Scene_Change			\Control\Scene_Change	
+

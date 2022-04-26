@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{D65846DE-2431-4946-9099-365C761ABC67}" SchemaVersion="103">
+	<States>
+		<WorkUnit Name="Music" ID="{D65846DE-2431-4946-9099-365C761ABC67}" PersistMode="Standalone">
+			<ChildrenList>
+				<StateGroup Name="Music" ID="{5C7BB5EC-570A-4D51-9486-CE2B6FF7DEC1}">
+					<ChildrenList>
+						<State Name="None" ID="{E9CB0504-2C7B-4260-A5B9-A2BEE640FBE0}"/>
+						<State Name="Mus_Field_Hill" ID="{05D86287-310D-46C5-BB86-57F2984684F4}"/>
+						<State Name="Mus_MainMenu" ID="{0AF2A8DB-D437-4C98-A09C-0EBEE1FEDC62}"/>
+						<State Name="Mus_Beach" ID="{8953B072-E2E1-4E95-9860-F0243B381C1D}"/>
+						<State Name="Mus_Field_Farms" ID="{75BD13A5-6921-48F5-8E93-26E02C10B70E}"/>
+					</ChildrenList>
+				</StateGroup>
+				<StateGroup Name="Pause" ID="{5D3C779C-8130-47C3-BFED-1E0641098106}">
+					<ChildrenList>
+						<State Name="None" ID="{F12F1341-B1A1-414E-90DF-4D572B9DB180}"/>
+						<State Name="Pause_On" ID="{66FAFFE6-0D55-4278-8DCA-0354883339FD}"/>
+						<State Name="Pause_Off" ID="{0725D63E-5068-4B78-9CBA-8997F1D1349F}"/>
+					</ChildrenList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</States>
+</WwiseDocument>

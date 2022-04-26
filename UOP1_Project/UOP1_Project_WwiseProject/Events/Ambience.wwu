@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{80D5CED2-A890-4539-AE65-D1FA261578A0}" SchemaVersion="103">
+	<Events>
+		<WorkUnit Name="Ambience" ID="{80D5CED2-A890-4539-AE65-D1FA261578A0}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="Reverb" ID="{8DBBD3B0-1A46-4ECF-8D49-947518B3565B}" ShortID="335706828">
+					<ChildrenList>
+						<Event Name="CaveReverb_Enable" ID="{ED01CA85-5445-4A10-BA81-E68194E22985}">
+							<ChildrenList>
+								<Action Name="" ID="{121231F5-503A-4E5D-BBF1-48B247CEBE93}" ShortID="800849594">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="CaveReverb_Enabled" ID="{8A133C79-884E-460F-AC8D-A9C0F138B1C2}" WorkUnitID="{5390DFB1-2588-49D9-92B1-0500AE6D6911}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="CaveReverb_Disable" ID="{B1387412-0137-4348-BA74-549A18F48604}">
+							<ChildrenList>
+								<Action Name="" ID="{D2546789-434A-49CF-A8B8-B3BB1E32B52E}" ShortID="720970319">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="CaveReverb_Disabled" ID="{4D48F241-4CE6-4A55-BD4F-E00457F05B3C}" WorkUnitID="{5390DFB1-2588-49D9-92B1-0500AE6D6911}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

@@ -1,0 +1,23 @@
+{
+    "name": "UOP1.StateMachine",
+    "rootNamespace": "",
+    "references": [
+        "Ak.Wwise.Api.WAAPI",
+        "AK.Wwise.Unity.API",
+        "AK.Wwise.Unity.API.Editor",
+        "AK.Wwise.Unity.API.WwiseTypes",
+        "AK.Wwise.Unity.MonoBehaviour",
+        "AK.Wwise.Unity.MonoBehaviour.Editor",
+        "AK.Wwise.Unity.Timeline",
+        "AK.Wwise.Unity.Timeline.Editor"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

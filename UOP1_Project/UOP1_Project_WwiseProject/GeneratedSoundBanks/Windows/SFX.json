@@ -1,0 +1,90 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "140",
+  "RootPaths": {
+   "ProjectRoot": "C:\\Users\\mjoll\\Documents\\repositories\\EEK course\\EEKAudio_2022_Project\\UOP1_Project\\UOP1_Project_WwiseProject\\",
+   "SourceFilesRoot": "C:\\Users\\mjoll\\Documents\\repositories\\EEK course\\EEKAudio_2022_Project\\UOP1_Project\\UOP1_Project_WwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "C:\\Users\\mjoll\\Documents\\repositories\\EEK course\\EEKAudio_2022_Project\\UOP1_Project\\UOP1_Project_WwiseProject\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "C:\\Users\\mjoll\\Documents\\repositories\\EEK course\\EEKAudio_2022_Project\\UOP1_Project\\UOP1_Project_WwiseProject\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "393239870",
+    "GUID": "{9DF4FF59-820F-47C8-8B41-ED0471029A30}",
+    "Language": "SFX",
+    "Hash": "2194326956",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SFX",
+    "ShortName": "SFX",
+    "Path": "SFX.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "1879932703",
+      "Name": "CaveReverb_Disable",
+      "ObjectPath": "\\Events\\Ambience\\Reverb\\CaveReverb_Disable",
+      "GUID": "{B1387412-0137-4348-BA74-549A18F48604}",
+      "MaxAttenuation": "0.",
+      "DurationType": "OneShot",
+      "DurationMin": "0.",
+      "DurationMax": "0.",
+      "ActionSetState": [
+       {
+        "Id": "2218728873",
+        "Name": "CaveReverb_Disabled",
+        "ObjectPath": "\\States\\Default Work Unit\\CaveReverb\\CaveReverb_Disabled",
+        "GUID": "{4D48F241-4CE6-4A55-BD4F-E00457F05B3C}"
+       }
+      ]
+     },
+     {
+      "Id": "1940944140",
+      "Name": "CaveReverb_Enable",
+      "ObjectPath": "\\Events\\Ambience\\Reverb\\CaveReverb_Enable",
+      "GUID": "{ED01CA85-5445-4A10-BA81-E68194E22985}",
+      "MaxAttenuation": "0.",
+      "DurationType": "OneShot",
+      "DurationMin": "0.",
+      "DurationMax": "0.",
+      "ActionSetState": [
+       {
+        "Id": "717767040",
+        "Name": "CaveReverb_Enabled",
+        "ObjectPath": "\\States\\Default Work Unit\\CaveReverb\\CaveReverb_Enabled",
+        "GUID": "{8A133C79-884E-460F-AC8D-A9C0F138B1C2}"
+       }
+      ]
+     },
+     {
+      "Id": "3170972326",
+      "Name": "Scene_Change",
+      "ObjectPath": "\\Events\\Control\\Scene_Change",
+      "GUID": "{07C77A48-4161-4733-9374-1E25B5B1642D}",
+      "MaxAttenuation": "0.",
+      "DurationType": "OneShot",
+      "DurationMin": "0.",
+      "DurationMax": "0."
+     }
+    ],
+    "StateGroups": [
+     {
+      "Id": "717767040",
+      "Name": "CaveReverb_Enabled",
+      "ObjectPath": "\\States\\Default Work Unit\\CaveReverb\\CaveReverb_Enabled",
+      "GUID": "{8A133C79-884E-460F-AC8D-A9C0F138B1C2}",
+      "States": []
+     },
+     {
+      "Id": "2218728873",
+      "Name": "CaveReverb_Disabled",
+      "ObjectPath": "\\States\\Default Work Unit\\CaveReverb\\CaveReverb_Disabled",
+      "GUID": "{4D48F241-4CE6-4A55-BD4F-E00457F05B3C}",
+      "States": []
+     }
+    ]
+   }
+  ]
+ }
+}
